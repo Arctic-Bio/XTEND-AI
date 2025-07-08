@@ -1,6 +1,6 @@
 # XTEND-AI
 
-![XTEND-AI Logo](#) <!-- Replace with actual logo if available -->
+![image](https://github.com/user-attachments/assets/a8f8b0dd-5f13-467d-a89d-788bf1355208)
 
 **XTEND-AI** is an innovative AI-powered chat assistant designed to support students in extending their learning capabilities. Built with cutting-edge technologies, XTEND-AI offers a unique approach to education by providing hints, asking insightful questions, and guiding students through parallel problems and examples rather than giving direct answers.
 
