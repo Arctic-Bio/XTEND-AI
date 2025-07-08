@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTEND-AI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module">
+        import * as webllm from "https://esm.run/@mlc-ai/web-llm@0.2.46";
+        window.webllm = webllm; // Make it available globally for the script.js
+    </script>
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-spinner"></div>
+        <h2>Loading XTEND-AI...</h2>
+        <p>Please wait while we initialize the Phi-3-mini-4k model.</p>
+    </div>
+    <div id="chat-interface" class="chat-container hidden">
+        <header>
+            <h1>XTEND-AI</h1>
+            <p>Chat with our advanced AI powered by Phi-3-mini-4k</p>
+        </header>
+        <div id="chat-window" class="chat-window">
+            <div id="chat-messages" class="chat-messages">
+                <!-- Chat messages will be dynamically added here -->
+                <div class="message bot">
+                    <div class="message-content">
+                        <p>Hello! I'm XTEND-AI, powered by Phi-3-mini-4k. How can I assist you today?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="input-area">
+            <textarea id="user-input" placeholder="Type your message here..." rows="3"></textarea>
+            <button id="send-button" class="send-button">Send</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
