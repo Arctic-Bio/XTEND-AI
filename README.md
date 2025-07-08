@@ -28,7 +28,7 @@ XTEND-AI is a web-based application that requires no traditional installation. H
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/xtend-ai.git
+   git clone https://github.com/Arctic-Bio/xtend-ai.git
    ```
 2. **Open the Application**:
    - Navigate to the cloned directory.
