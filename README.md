@@ -53,8 +53,9 @@ XTEND-AI is a web-based application that requires no traditional installation. H
 
 ## Screenshots
 
-<!-- Add screenshots or GIFs of the application in action -->
-(Coming soon)
+First test of name knowledge, memory system, and reltionairy system.
+![image](https://github.com/user-attachments/assets/f7c04f74-230d-4484-aad7-b5ea11cde6ab)
+
 
 ## Technologies Used
 
